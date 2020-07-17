@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <title>NASA Photo Texter</title>
+  <link rel="stylesheet" type = "text/css" href="{{ url_for('static',filename='css/template.css') }}">
+ </head>
+ <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">NASA Astro Photo of the Day 'Bot'</h1>
+
+        <nav>
+        <p>An experiment in Flask, APIs, Python, and Heroku, I present my NASA Photo Astro Photo of the Day Bot.</p>
+          It communicates with the Twilio API and <a href = "api.nasa.gov">NASA's APIs</a> to effectively send a photo to your phone.
+          The full list of photos can been seen <a href = "https://apod.nasa.gov/apod/archivepix.html">here.</a>
+          <h2>Any date from today through June 16th, 1995 *should* return a valid photo. </h2>
+        
+        </nav>
+       
+      </div>
+    </header>
+    <div class = "instructions">
+      <strong><p>Instructions: </p></strong>
+      <p>Text: <strong>928-433-4317</strong> </p>
+      <ul class = "input">
+        <li>A date in the format of <strong>YYYY-MM-DD</strong></li>
+        <li>The word 'today' or 'Today'</li>
+      </ul>
+      <br>
+      
+      <p>For NASA's astronomy photo of the day!</p>
+
+      </div>
+      <br>  
+    <footer>
+      <p>Project Developed by <a href = "https://github.com/aarif-razak">Aarif Razak</a></p>
+   </footer>
+    
+ </body>
+</html>

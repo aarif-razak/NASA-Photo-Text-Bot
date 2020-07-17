@@ -1,0 +1,24 @@
+div.instructions {
+    text-align: center;
+    
+  }
+  
+  h1 {text-align: center; padding: 70px 0;}
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 10px;
+    color: #363636;
+    background: #fff;
+    text-rendering: optimizeLegibility
+}
+li {text-align: center;}
+ul {text-align: center;
+  list-style-position:inside;}
+
+  footer{text-align: center;}
+
+
+
